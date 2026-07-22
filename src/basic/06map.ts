@@ -14,6 +14,9 @@
     console.log(map.keys());
     console.log(map.values());
     console.log(map.entries());
-    map.clear()
+    // map.clear()
     console.log(map.size);
+    for (let key of map.keys()) {
+        console.log(key)
+    }
 }
